@@ -2,7 +2,6 @@
 public class Book implements Comparable<Book>{
 	private String id;
     private String title;
-    
     private String author;
     private int publicationYear;
 
