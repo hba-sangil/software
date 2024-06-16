@@ -1,5 +1,5 @@
 
-public class Book {
+public class Book implements Comparable<Book>{
 	private String id;
     private String title;
     private String author;
@@ -32,5 +32,9 @@ public class Book {
     @Override
     public String toString() {
         return "Book{id='" + id + "', 제목='" + title + "', 저자='" + author + "', 출판년도=" + publicationYear + "}";
+    }
+    
+    public int compareTo(Book other) {
+        return this.id.compareTo(other.id);
     }
 }
