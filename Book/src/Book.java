@@ -4,7 +4,6 @@ public class Book implements Comparable<Book>{
     private String title;
     private String author;
     private int publicationYear;
-    
 
     public Book(String id, String title, String author, int publicationYear) {
         this.id = id;

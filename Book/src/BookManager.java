@@ -8,7 +8,6 @@ public class BookManager {
     public BookManager() {
         books = new ArrayList<>();
     }
-    
 
     public boolean addBook(Book book) {
         for (Book b : books) {

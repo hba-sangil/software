@@ -7,7 +7,6 @@ class BookManagerTest {
 
     @BeforeEach
     void setUp() {
-    	
         bookManager = new BookManager();
         bookManager.addBook(new Book("1", "자바 기초", "Jane", 2021));
         bookManager.addBook(new Book("2", "소프트웨어 공학", "Tom", 2014));
